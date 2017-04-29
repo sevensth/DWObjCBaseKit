@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char DWObjCBaseKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <DWObjCBaseKit/PublicHeader.h>
 
 #import <DWObjCBaseKit/DWTypeDefine.h>
+#import <DWObjCBaseKit/DWObjCBaseUtil.h>
