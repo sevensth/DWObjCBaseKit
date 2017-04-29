@@ -15,6 +15,8 @@
 		261024011EB4A0D5003321CE /* DWObjcRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 261023FD1EB4A0D5003321CE /* DWObjcRuntimeUtil.m */; };
 		261024021EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 261023FE1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		261024031EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 261023FF1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m */; };
+		261024071EB4A613003321CE /* DWOBUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 261024051EB4A613003321CE /* DWOBUtil.h */; };
+		261024081EB4A613003321CE /* DWOBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 261024061EB4A613003321CE /* DWOBUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		261023FE1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DWAssociatedObjects.h"; sourceTree = "<group>"; };
 		261023FF1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DWAssociatedObjects.m"; sourceTree = "<group>"; };
 		261024041EB4A198003321CE /* DWObjCBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DWObjCBaseKit.podspec; sourceTree = "<group>"; };
+		261024051EB4A613003321CE /* DWOBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWOBUtil.h; sourceTree = "<group>"; };
+		261024061EB4A613003321CE /* DWOBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWOBUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		261023C31EB489C3003321CE /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				261024051EB4A613003321CE /* DWOBUtil.h */,
+				261024061EB4A613003321CE /* DWOBUtil.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			files = (
 				261024021EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h in Headers */,
 				261024001EB4A0D5003321CE /* DWObjCRuntimeUtil.h in Headers */,
+				261024071EB4A613003321CE /* DWOBUtil.h in Headers */,
 				261023C61EB489CD003321CE /* DWTypeDefine.h in Headers */,
 				261023B91EB4894B003321CE /* DWObjCBaseKit.h in Headers */,
 			);
@@ -240,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261024011EB4A0D5003321CE /* DWObjcRuntimeUtil.m in Sources */,
+				261024081EB4A613003321CE /* DWOBUtil.m in Sources */,
 				261024031EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -351,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
