@@ -11,8 +11,10 @@
 		261023B71EB4894B003321CE /* DWObjCBaseKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 261023B61EB4894B003321CE /* DWObjCBaseKitTests.m */; };
 		261023B91EB4894B003321CE /* DWObjCBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 261023AB1EB4894B003321CE /* DWObjCBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		261023C61EB489CD003321CE /* DWTypeDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 261023C51EB489CD003321CE /* DWTypeDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		261023D61EB49028003321CE /* DWObjCBaseUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 261023D41EB49028003321CE /* DWObjCBaseUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		261023D71EB49028003321CE /* DWObjCBaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 261023D51EB49028003321CE /* DWObjCBaseUtil.m */; };
+		261024001EB4A0D5003321CE /* DWObjCRuntimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 261023FC1EB4A0D5003321CE /* DWObjCRuntimeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		261024011EB4A0D5003321CE /* DWObjcRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 261023FD1EB4A0D5003321CE /* DWObjcRuntimeUtil.m */; };
+		261024021EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 261023FE1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		261024031EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 261023FF1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +35,11 @@
 		261023B61EB4894B003321CE /* DWObjCBaseKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWObjCBaseKitTests.m; sourceTree = "<group>"; };
 		261023B81EB4894B003321CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		261023C51EB489CD003321CE /* DWTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTypeDefine.h; sourceTree = "<group>"; };
-		261023C71EB48A08003321CE /* DWObjCBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DWObjCBaseKit.podspec; sourceTree = "<group>"; };
-		261023D41EB49028003321CE /* DWObjCBaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWObjCBaseUtil.h; sourceTree = "<group>"; };
-		261023D51EB49028003321CE /* DWObjCBaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWObjCBaseUtil.m; sourceTree = "<group>"; };
+		261023FC1EB4A0D5003321CE /* DWObjCRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWObjCRuntimeUtil.h; sourceTree = "<group>"; };
+		261023FD1EB4A0D5003321CE /* DWObjcRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWObjcRuntimeUtil.m; sourceTree = "<group>"; };
+		261023FE1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DWAssociatedObjects.h"; sourceTree = "<group>"; };
+		261023FF1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DWAssociatedObjects.m"; sourceTree = "<group>"; };
+		261024041EB4A198003321CE /* DWObjCBaseKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = DWObjCBaseKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,7 @@
 		2610239E1EB4894B003321CE = {
 			isa = PBXGroup;
 			children = (
-				261023C71EB48A08003321CE /* DWObjCBaseKit.podspec */,
+				261024041EB4A198003321CE /* DWObjCBaseKit.podspec */,
 				261023AA1EB4894B003321CE /* DWObjCBaseKit */,
 				261023B51EB4894B003321CE /* DWObjCBaseKitTests */,
 				261023A91EB4894B003321CE /* Products */,
@@ -115,8 +119,10 @@
 			isa = PBXGroup;
 			children = (
 				261023C51EB489CD003321CE /* DWTypeDefine.h */,
-				261023D41EB49028003321CE /* DWObjCBaseUtil.h */,
-				261023D51EB49028003321CE /* DWObjCBaseUtil.m */,
+				261023FC1EB4A0D5003321CE /* DWObjCRuntimeUtil.h */,
+				261023FD1EB4A0D5003321CE /* DWObjcRuntimeUtil.m */,
+				261023FE1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h */,
+				261023FF1EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -128,7 +134,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261023D61EB49028003321CE /* DWObjCBaseUtil.h in Headers */,
+				261024021EB4A0D5003321CE /* NSObject+DWAssociatedObjects.h in Headers */,
+				261024001EB4A0D5003321CE /* DWObjCRuntimeUtil.h in Headers */,
 				261023C61EB489CD003321CE /* DWTypeDefine.h in Headers */,
 				261023B91EB4894B003321CE /* DWObjCBaseKit.h in Headers */,
 			);
@@ -232,7 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261023D71EB49028003321CE /* DWObjCBaseUtil.m in Sources */,
+				261024011EB4A0D5003321CE /* DWObjcRuntimeUtil.m in Sources */,
+				261024031EB4A0D5003321CE /* NSObject+DWAssociatedObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
