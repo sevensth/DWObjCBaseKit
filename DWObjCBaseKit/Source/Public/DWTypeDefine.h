@@ -15,8 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void (^DWVoidBlock)(void);
 typedef void (^DWBoolBlock)(BOOL finished);
 /**
- * Using __kindof allows replacing NSObject* to any specified type for an observer, like ^(BBDemoViewController * _Nonnull observer, NSDictionary<NSString *, id> * _Nullable change).
+ * Using __kindof allows replacing NSObject* to any specified type for an observer, like ^(MyObserver * _Nonnull observer, MyModel * _Nonnull object, NSDictionary<NSString *, id> * _Nullable change).
  */
-typedef void (^DWKVOCallbackBlock)(__kindof NSObject* observer, NSDictionary<NSString *, id> * _Nullable change);
+typedef void (^DWKVOCallbackBlock)(__kindof NSObject* observer, __kindof NSObject* object, NSDictionary<NSString *, id> * _Nullable change);
 
 NS_ASSUME_NONNULL_END
